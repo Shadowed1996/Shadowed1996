@@ -34,7 +34,7 @@ In sintesi:
 
 | Progetto | Cos'è | Stack |
 | --- | --- | --- |
-| **Pride Bar** | Sistema POS per la gestione delle comande di un bar | Python · Go · JavaScript |
+| **Pride Bar** | Sistema POS per la gestione delle comande di un bar per conto di ArciGay | Python · Go · JavaScript |
 | **Portale Mavi** | Portale gestionale per un'azienda di ristorazione, ad aree separate | React · Vite |
 | **Siti per creator** | Landing e siti personali con pannello di amministrazione | HTML · CSS · JavaScript |
 
