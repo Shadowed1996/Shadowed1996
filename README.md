@@ -11,13 +11,10 @@ Codice scritto a mano, poche dipendenze, interfacce in italiano.
 
 Lavoro su due filoni che finiscono spesso per incrociarsi.
 
-**Strumenti per la diretta.** Overlay e widget che girano dentro OBS, pannelli di regia,
-integrazioni con Twitch, Kick e YouTube. Roba che deve stare accesa per ore senza perdere
-un frame e senza chiedere manutenzione a chi la usa.
+**Programmi custom e utility.** Piccoli software privati e strumenti dedicati a un compito preciso. 
+Qualcosa che installi, fai partire e funziona per mesi senza perdere un colpo o richiedere manutenzione.
 
-**Gestionali e siti su commissione.** Portali per aziende, sistemi POS, siti per creator.
-L'obiettivo è sempre lo stesso: chi li usa deve poterli cambiare da solo, senza aprire
-un file di codice e senza chiamarmi.
+**Gestionali su misura.** Sistemi interni, pannelli dati e piccoli portali aziendali. L'obiettivo è chiaro: chi li usa deve avere il pieno controllo di quello che fa, senza aprire un file di codice e senza dovermi chiamare ogni volta che deve modificare qualcosa.
 
 ---
 
