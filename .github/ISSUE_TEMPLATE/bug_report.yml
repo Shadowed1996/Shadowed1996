@@ -1,0 +1,46 @@
+name: Segnalazione di un problema
+description: Un refuso, un collegamento rotto o un'informazione non corretta nella scheda del profilo.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie per la segnalazione. Se il problema riguarda un **altro progetto**,
+        aprila sul repository di quel progetto invece che qui.
+
+  - type: textarea
+    id: descrizione
+    attributes:
+      label: Qual è il problema
+      description: Descrivi cosa non va nella scheda del profilo.
+      placeholder: Il collegamento alla sezione «Progetti» porta a una pagina che non esiste.
+    validations:
+      required: true
+
+  - type: input
+    id: posizione
+    attributes:
+      label: Dove si trova
+      description: Sezione del README, oppure il testo esatto da cercare.
+      placeholder: Sezione «Progetti», riga del collegamento a WidgetChat
+    validations:
+      required: true
+
+  - type: textarea
+    id: atteso
+    attributes:
+      label: Cosa dovrebbe dire o fare
+      description: La correzione che proponi, se ne hai una.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: conferme
+    attributes:
+      label: Conferme
+      options:
+        - label: Ho verificato che il problema non sia già stato segnalato.
+          required: true
+        - label: Questa segnalazione non riguarda una vulnerabilità di sicurezza (in quel caso si usa la scheda Security).
+          required: true

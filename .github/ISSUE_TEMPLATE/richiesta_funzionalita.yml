@@ -1,0 +1,46 @@
+name: Proposta di modifica
+description: Suggerisci un'aggiunta o un cambiamento alla scheda del profilo.
+title: "[Funzionalità]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Il contenuto di questo repository è personale e proprietario: le proposte
+        sono benvenute come suggerimento, ma la decisione finale resta mia.
+
+  - type: textarea
+    id: problema
+    attributes:
+      label: Quale problema risolve
+      description: Cosa manca oggi, o cosa risulta poco chiaro a chi legge.
+      placeholder: Non si capisce quali progetti siano disponibili pubblicamente e quali no.
+    validations:
+      required: true
+
+  - type: textarea
+    id: soluzione
+    attributes:
+      label: Soluzione proposta
+      description: Cosa aggiungeresti o cambieresti, in concreto.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternative
+    attributes:
+      label: Alternative considerate
+      description: Altri modi di risolvere lo stesso problema, e perché li scarti.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priorita
+    attributes:
+      label: Priorità suggerita
+      options:
+        - Bassa — miglioria estetica
+        - Media — migliora la comprensione
+        - Alta — informazione errata o fuorviante
+    validations:
+      required: true

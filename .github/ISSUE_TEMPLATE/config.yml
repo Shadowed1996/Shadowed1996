@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Vulnerabilità di sicurezza
+    url: https://github.com/Shadowed1996/Shadowed1996/security/advisories/new
+    about: Le vulnerabilità vanno segnalate in privato, non con una issue pubblica.
+  - name: Problemi su un altro progetto
+    url: https://github.com/Shadowed1996?tab=repositories
+    about: Apri la segnalazione sul repository del progetto interessato.
